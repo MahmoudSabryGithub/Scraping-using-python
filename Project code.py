@@ -36,7 +36,7 @@ for i in range(int(page_num)):
     main(page)
 
 
-#Creating a dataFrame and Csv file
+#Creating a DataFrame and Csv file 
 data=DataFrame(f)
 print(data)
 data.to_csv("C:\\Users\\DELL\\Documents\\Python\\Scraping using python\\result file.csv",index=False)
